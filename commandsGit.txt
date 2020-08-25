@@ -1,0 +1,11 @@
+touch .gitignore
+git config -- global user.name "GURURAJTA" # quotes are optional in they're small
+git config -- global user.email "gururajankappa#gmail.com"
+git init
+git add .
+git commit -m "Initial Commit"
+git status # Just to see. Tree Clean
+ssh-keygen -t rsa -b 4096 -C "gururajankappa@gmail.com"
+tail <pagth to id_rsa.pug> # Add this key to your git hub account.
+git remote add orgin <ssh url.git>
+git push origin master
